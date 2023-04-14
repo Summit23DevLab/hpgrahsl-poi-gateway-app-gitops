@@ -1,0 +1,15 @@
+app:
+  name: poi-gateway-app
+  namespace: hpgrahsl-dev
+  cluster: .apps.summit23.0x74.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/backstage-2w7cf/hpgrahsl-poi-gateway-app
+  org: backstage-2w7cf
+  name: hpgrahsl-poi-gateway-app
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: hpgrahsl-dev/poi-gateway-app
+  tag: latest
